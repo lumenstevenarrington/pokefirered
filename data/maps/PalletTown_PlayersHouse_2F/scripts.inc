@@ -18,6 +18,9 @@ PalletTown_PlayersHouse_2F_OnWarp::
 PalletTown_PlayersHouse_2F_FirstWarpIn::
 	turnobject OBJ_EVENT_ID_PLAYER, DIR_NORTH
 	setvar VAR_MAP_SCENE_PALLET_TOWN_PLAYERS_HOUSE_2F, 1
+	givemon SPECIES_EEVEE, 5
+	setflag FLAG_SYS_POKEMON_GET
+	setflag FLAG_SYS_B_DASH
 	end
 
 PalletTown_PlayersHouse_2F_EventScript_NES::

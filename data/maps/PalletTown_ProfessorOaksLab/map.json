@@ -13,7 +13,7 @@
   "show_map_name": false,
   "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": null,
+  "connections": 0,
   "object_events": [
     {
       "type": "object",
@@ -206,33 +206,6 @@
       "var": "VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB",
       "var_value": "2",
       "script": "PalletTown_ProfessorOaksLab_EventScript_LeaveStarterSceneTrigger"
-    },
-    {
-      "type": "trigger",
-      "x": 5,
-      "y": 8,
-      "elevation": 3,
-      "var": "VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB",
-      "var_value": "3",
-      "script": "PalletTown_ProfessorOaksLab_EventScript_RivalBattleTriggerLeft"
-    },
-    {
-      "type": "trigger",
-      "x": 6,
-      "y": 8,
-      "elevation": 3,
-      "var": "VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB",
-      "var_value": "3",
-      "script": "PalletTown_ProfessorOaksLab_EventScript_RivalBattleTriggerMid"
-    },
-    {
-      "type": "trigger",
-      "x": 7,
-      "y": 8,
-      "elevation": 3,
-      "var": "VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB",
-      "var_value": "3",
-      "script": "PalletTown_ProfessorOaksLab_EventScript_RivalBattleTriggerRight"
     }
   ],
   "bg_events": [
