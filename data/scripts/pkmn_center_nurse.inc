@@ -1,7 +1,7 @@
 EventScript_PkmnCenterNurse::
-	goto_if_questlog EventScript_ReleaseEnd
-	call EventScript_PkmnCenterNurse_HealPkmn
-	end
+	special HealPlayerParty
+	msgbox Text_WeHopeToSeeYouAgain
+	return
 
 EventScript_PkmnCenterNurse_HealPkmn::
 	incrementgamestat GAME_STAT_USED_POKECENTER
