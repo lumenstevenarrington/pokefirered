@@ -922,7 +922,7 @@ void StartSpecialBattle(void)
         CreateTask(Task_WaitBT, 1);
         PlayMapChosenOrBattleBGM(0);
         transition = BattleSetup_GetBattleTowerBattleTransition();
-        BattleTransition_StartOnField(transition);
+        // BattleTransition_StartOnField(transition);
         break;
     case 2: // e-reader trainer battle
         ZeroEnemyPartyMons();
@@ -936,7 +936,7 @@ void StartSpecialBattle(void)
         CreateTask(Task_WaitBT, 1);
         PlayMapChosenOrBattleBGM(0);
         transition = BattleSetup_GetBattleTowerBattleTransition();
-        BattleTransition_StartOnField(transition);
+        // BattleTransition_StartOnField(transition);
         break;
     }
 }
