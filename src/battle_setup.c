@@ -191,7 +191,7 @@ static void Task_BattleStart(u8 taskId)
         if (!FldEffPoison_IsActive())
         {
             HelpSystem_Disable();
-            BattleTransition_StartOnField(tTransition);
+            // BattleTransition_StartOnField(tTransition);
             ++tState;
         }
         break;
