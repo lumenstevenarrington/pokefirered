@@ -21,6 +21,7 @@ PalletTown_PlayersHouse_2F_FirstWarpIn::
 	givemon SPECIES_EEVEE, 5
 	setflag FLAG_SYS_POKEMON_GET
 	setflag FLAG_SYS_B_DASH
+	setflag FLAG_SYS_POKEDEX_GET
 	special SetUnlockedPokedexFlags
 	setvar VAR_MAP_SCENE_POKEMON_CENTER_TEALA, 1
 	famechecker FAMECHECKER_OAK, 1
