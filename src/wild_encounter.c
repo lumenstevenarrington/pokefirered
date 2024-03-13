@@ -647,12 +647,12 @@ static u8 GetFluteEncounterRateModType(void)
 static void ApplyCleanseTagEncounterRateMod(u32 *encounterRate)
 {
     if (IsLeadMonHoldingCleanseTag())
-        *encounterRate = *encounterRate * 2 / 3;
+        *encounterRate = *encounterRate * 0;
 }
 
 static bool8 IsLeadMonHoldingCleanseTag(void)
 {
-    if (sWildEncounterData.leadMonHeldItem == ITEM_CLEANSE_TAG)
+    if (sWildEncounterData.leadMonHeldItem == ITEM_CLEANSE_TAG || sWildEncounterData.leadMonHeldItem == ITEM_REPEL)
         return TRUE;
     else
         return FALSE;

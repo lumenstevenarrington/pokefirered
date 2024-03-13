@@ -1380,7 +1380,7 @@
       "english": "REPEL",
       "itemId": "ITEM_REPEL",
       "price": 350,
-      "holdEffect": "HOLD_EFFECT_NONE",
+      "holdEffect": "HOLD_EFFECT_REPEL",
       "holdEffectParam": 100,
       "description_english": "Prevents weak wild POKéMON from\\nappearing for 100 steps.",
       "importance": 0,
