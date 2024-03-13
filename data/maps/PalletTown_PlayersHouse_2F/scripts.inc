@@ -21,6 +21,16 @@ PalletTown_PlayersHouse_2F_FirstWarpIn::
 	givemon SPECIES_EEVEE, 5
 	setflag FLAG_SYS_POKEMON_GET
 	setflag FLAG_SYS_B_DASH
+	setflag FLAG_SYS_POKEDEX_GET
+	special SetUnlockedPokedexFlags
+	setvar VAR_MAP_SCENE_POKEMON_CENTER_TEALA, 1
+	giveitem ITEM_POKE_BALL, 5
+	famechecker FAMECHECKER_OAK, 1
+	setvar VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 6
+	setvar VAR_MAP_SCENE_VIRIDIAN_CITY_MART, 2
+	setvar VAR_MAP_SCENE_VIRIDIAN_CITY_OLD_MAN, 1
+	setvar VAR_MAP_SCENE_PALLET_TOWN_RIVALS_HOUSE, 1
+	setvar VAR_MAP_SCENE_ROUTE22, 1
 	end
 
 PalletTown_PlayersHouse_2F_EventScript_NES::
