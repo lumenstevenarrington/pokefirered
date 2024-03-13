@@ -13,7 +13,7 @@
   "show_map_name": false,
   "floor_number": 0,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": null,
+  "connections": 0,
   "object_events": [
     {
       "type": "object",
@@ -61,33 +61,9 @@
     }
   ],
   "coord_events": [
-    {
-      "type": "trigger",
-      "x": 3,
-      "y": 5,
-      "elevation": 3,
-      "var": "VAR_MAP_SCENE_ROUTE5_ROUTE6_ROUTE7_ROUTE8_GATES",
-      "var_value": "0",
-      "script": "Route6_NorthEntrance_EventScript_GuardTriggerLeft"
-    },
-    {
-      "type": "trigger",
-      "x": 4,
-      "y": 5,
-      "elevation": 3,
-      "var": "VAR_MAP_SCENE_ROUTE5_ROUTE6_ROUTE7_ROUTE8_GATES",
-      "var_value": "0",
-      "script": "Route6_NorthEntrance_EventScript_GuardTriggerMid"
-    },
-    {
-      "type": "trigger",
-      "x": 5,
-      "y": 5,
-      "elevation": 3,
-      "var": "VAR_MAP_SCENE_ROUTE5_ROUTE6_ROUTE7_ROUTE8_GATES",
-      "var_value": "0",
-      "script": "Route6_NorthEntrance_EventScript_GuardTriggerRight"
-    }
+
   ],
-  "bg_events": []
+  "bg_events": [
+
+  ]
 }
