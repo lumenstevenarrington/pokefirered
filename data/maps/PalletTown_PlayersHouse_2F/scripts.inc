@@ -24,7 +24,6 @@ PalletTown_PlayersHouse_2F_FirstWarpIn::
 	setflag FLAG_SYS_POKEDEX_GET
 	special SetUnlockedPokedexFlags
 	setvar VAR_MAP_SCENE_POKEMON_CENTER_TEALA, 1
-	giveitem ITEM_POKE_BALL, 5
 	famechecker FAMECHECKER_OAK, 1
 	setvar VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 6
 	setvar VAR_MAP_SCENE_VIRIDIAN_CITY_MART, 2
